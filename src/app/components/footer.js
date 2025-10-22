@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import {
   FaFacebookF,
   FaTwitter,
@@ -37,43 +38,49 @@ export default function Footer() {
           </h4>
           <ul className="space-y-2">
             <li>
-              <a href="/" className="hover:text-blue-400 transition-colors">
+              <Link href="/" className="hover:text-blue-400 transition-colors">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/about"
                 className="hover:text-blue-400 transition-colors"
               >
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/services"
                 className="hover:text-blue-400 transition-colors"
               >
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/blog" className="hover:text-blue-400 transition-colors">
+              <Link
+                href="/blog"
+                className="hover:text-blue-400 transition-colors"
+              >
                 Blog
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/contact"
                 className="hover:text-blue-400 transition-colors"
               >
                 Contact
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/faq" className="hover:text-blue-400 transition-colors">
+              <Link
+                href="/faq"
+                className="hover:text-blue-400 transition-colors"
+              >
                 FAQ
-              </a>
+              </Link>
             </li>
           </ul>
           <h5 className="text-blue-400 mt-6 font-semibold">
@@ -81,44 +88,44 @@ export default function Footer() {
           </h5>
           <ul className="space-y-1 text-gray-400 text-sm mt-2">
             <li>
-              <a
+              <Link
                 href="/services#writing"
                 className="hover:text-blue-400 transition-colors"
               >
                 Bid & Tender Writing
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/services#review"
                 className="hover:text-blue-400 transition-colors"
               >
                 Bid Review
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/services#management"
                 className="hover:text-blue-400 transition-colors"
               >
                 Bid Management
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/services#advisory"
                 className="hover:text-blue-400 transition-colors"
               >
                 Bid Advisory
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/services/training"
                 className="hover:text-blue-400 transition-colors"
               >
                 Training & Recruitment
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -134,44 +141,44 @@ export default function Footer() {
             Support: support@trebo-bids.com
           </p>
           <p className="text-gray-400 text-sm mb-4">
-            <a
+            <Link
               href="https://goo.gl/maps/example"
               target="_blank"
               rel="noreferrer"
               className="hover:text-blue-400 transition-colors"
             >
               View on Google Maps
-            </a>
+            </Link>
           </p>
           <div className="flex space-x-4 mt-2 text-lg">
-            <a
+            <Link
               href="#"
               className="hover:text-blue-400 transition-colors"
               title="Facebook"
             >
               <FaFacebookF />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="hover:text-blue-400 transition-colors"
               title="Twitter"
             >
               <FaTwitter />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="hover:text-blue-400 transition-colors"
               title="LinkedIn"
             >
               <FaLinkedinIn />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="hover:text-blue-400 transition-colors"
               title="Instagram"
             >
               <FaInstagram />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -198,9 +205,9 @@ export default function Footer() {
           </form>
           <p className="text-gray-500 text-xs mt-2">
             By subscribing, you agree to our{" "}
-            <a href="/privacy" className="hover:text-blue-400">
+            <Link href="/privacy" className="hover:text-blue-400">
               Privacy Policy
-            </a>
+            </Link>
             .
           </p>
         </div>

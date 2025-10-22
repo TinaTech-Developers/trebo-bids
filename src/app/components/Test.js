@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const TESTIMONIALS = [
   {
@@ -39,8 +40,9 @@ export default function Testimonials1() {
           What Our Clients Say
         </motion.h2>
         <p className="text-gray-400 max-w-2xl mx-auto mb-16">
-          Our commitment to excellence has helped clients succeed across
-          multiple sectors. Here's what they have to say.
+          {
+            "Our commitment to excellence has helped clients succeed across multiple sectors. Here's what they have to say."
+          }
         </p>
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -53,7 +55,9 @@ export default function Testimonials1() {
               className="relative bg-gray-900/50 border border-white/10 rounded-2xl p-8 backdrop-blur-lg shadow-lg hover:shadow-[0_0_25px_rgba(255,255,255,0.05)] transition-all duration-300"
             >
               <div className="flex items-center mb-4">
-                <img
+                <Image
+                  height={48}
+                  width={48}
                   src={testimonial.avatar}
                   alt={testimonial.name}
                   className="w-12 h-12 rounded-full border-2 border-blue-400 object-cover mr-4"
@@ -64,7 +68,7 @@ export default function Testimonials1() {
                 </div>
               </div>
               <p className="text-gray-300 text-sm leading-relaxed">
-                "{testimonial.text}"
+                {testimonial.text}
               </p>
             </motion.div>
           ))}

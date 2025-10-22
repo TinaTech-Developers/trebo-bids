@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const SECTORS = [
   {
@@ -75,7 +76,9 @@ export default function Sectors() {
               viewport={{ once: true }}
               className="relative rounded-2xl overflow-hidden cursor-pointer shadow-lg group"
             >
-              <img
+              <Image
+                height={256}
+                width={384}
                 src={sector.image}
                 alt={sector.name}
                 className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105"
