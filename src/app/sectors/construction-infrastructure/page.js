@@ -181,7 +181,9 @@ export default function ConstructionPage() {
             Justice, and Network Rail.
           </p>
         </div>
-        <img
+        <Image
+          fill
+          quality={100}
           src="/scene-construction-site-with-equipment.jpg"
           alt="Construction team discussion"
           className="w-full md:w-1/2 rounded-xl"
