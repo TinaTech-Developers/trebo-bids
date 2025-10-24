@@ -230,7 +230,9 @@ export default function ConstructionPage() {
               variants={fadeUp}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
             >
-              <img
+              <Image
+                quality={100}
+                fill
                 src={caseItem.image}
                 alt={caseItem.title}
                 className="w-full h-48 object-cover"

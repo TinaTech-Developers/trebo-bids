@@ -128,21 +128,21 @@ export default function WhoWeArePage() {
           <ZigzagCard
             title="Mission"
             text="Empower organizations to win through winning bids, strategy, and advisory."
-            img="https://images.unsplash.com/photo-1581091215366-2c33a5e4dcf5?auto=format&fit=crop&w=1600&q=80"
+            img="https://img.freepik.com/premium-photo/businessman-clicks-virtual-screen-mission_1085052-765.jpg"
             color="blue"
             reverse={false}
           />
           <ZigzagCard
             title="Vision"
             text="To be the most trusted consultancy in competitive bidding environments."
-            img="https://images.unsplash.com/photo-1564866657313-bf4f9a8bb0f7?auto=format&fit=crop&w=1600&q=80"
+            img="https://media.istockphoto.com/id/500504909/photo/business-vision.jpg?s=612x612&w=0&k=20&c=sfAyloZ4GkAkZQ7KIm_Jeg33a4Z-HuR7lTijWbRN95g="
             color="purple"
             reverse={true}
           />
           <ZigzagCard
             title="Values"
             text="Integrity, Excellence, Collaboration, Innovation, Reliability."
-            img="https://images.unsplash.com/photo-1573495628369-2d0a9e0e1c88?auto=format&fit=crop&w=1600&q=80"
+            img="https://www.euroschoolindia.com/blogs/wp-content/uploads/2023/06/moral-values-meaning.jpg"
             color="pink"
             reverse={false}
           />
